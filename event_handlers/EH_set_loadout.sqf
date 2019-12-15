@@ -1,11 +1,10 @@
 //REQUIRES CBA A3
+
 //INIT LOADOUT HANDLER
 //preInit handler for setting up a loadout for any one unit using ACE getUnitLoadout output arrays
 //declare unit class in place of example B_Soldier_F
 //declare loadout after setUnitLoadout command
 //duplicate code and replace "init" with "respawn" if you want players to get loadout after respawning
-//
-
 ["B_Soldier_F", "init", { 
     params ["_vehicle"];
     [{
