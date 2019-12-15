@@ -2,6 +2,7 @@
 //define a trigger space within which 33% of AI will surrender
 //in activation event of trigger write "[triggerName] execVM "AISurrender.sqf";"
 //thanks to diwako for helping out with the animation and trigger setup
+//
 
 _theTrigger = _this # 0;
 _unitArray = list _theTrigger;
