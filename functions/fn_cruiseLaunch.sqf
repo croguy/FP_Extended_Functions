@@ -1,6 +1,8 @@
 //function that when executed launches a cruise missile at designated target
 //function will not fire anything if unit does not have an active designator
 //implementation best by as visible in fn_addCruiseDesignator.sqf
+//TODO: alert that the launch is invalid?
+
 //example: [player] call fp_fnc_cruiseLaunch
 
 params [
